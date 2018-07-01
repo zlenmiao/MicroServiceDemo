@@ -11,7 +11,7 @@ namespace MsgService.Controllers
         [HttpPost(nameof(Send_MI))]
         public void Send_MI(dynamic model)
         {
-            Console.WriteLine($"通过小米短信接口向{model.phoneNum}发送短信{model.msg}");
+            Console.WriteLine($"通过小米短信接口向{model.PhoneNum}发送短信{model.Msg}");
         }
 
         [HttpPost(nameof(Send_LX))]

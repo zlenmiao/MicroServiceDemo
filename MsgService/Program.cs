@@ -20,10 +20,8 @@ namespace MsgService
         public static IWebHostBuilder CreateWebHostBuilder(string[] args)
         {
             var config = new ConfigurationBuilder().AddCommandLine(args).Build();
-
-            string ip = config["ip"];
-            string port = config["port"];
-
+            String ip = config["ip"];
+            String port = config["port"];
 
             return WebHost.CreateDefaultBuilder(args).UseStartup<Startup>().UseUrls($"http://{ip}:{port}");
         }

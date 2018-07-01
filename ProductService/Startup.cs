@@ -31,7 +31,6 @@ namespace ProductService
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, IApplicationLifetime applicationLifetime)
         {
-
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -64,7 +63,7 @@ namespace ProductService
             {
                 using (var consulClient = new ConsulClient(ConsulConifg))
                 {
-                    Console.WriteLine("Consul");
+                    Console.WriteLine("应用退出，开始从consul注销");
                     consulClient.Agent.ServiceDeregister(serviceId).Wait();
                 }
             });

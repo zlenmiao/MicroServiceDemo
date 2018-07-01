@@ -23,6 +23,7 @@ namespace ProductService.Controllers
         [HttpGet]
         public IEnumerable<Product> Get()
         {
+            return products;
             string name = this.User.Identity.Name;//读取的就是"Name"这个特殊的Claims的值
             string userId = this.User.FindFirst("UserId").Value;
             string realName = this.User.FindFirst("RealName").Value;

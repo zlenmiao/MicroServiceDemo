@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsulDemo", "ConsulDemo\Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductService", "ProductService\ProductService.csproj", "{101662DE-66F0-477A-93B1-DB5BC836E573}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "服务消费者1", "服务消费者1\服务消费者1.csproj", "{43EEF412-A4C5-4183-ADC9-75D4B965C404}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "服务消费者1", "服务消费者1\服务消费者1.csproj", "{43EEF412-A4C5-4183-ADC9-75D4B965C404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestTemplateCoreTest", "RestTemplateCoreTest\RestTemplateCoreTest.csproj", "{1DD26A5B-B086-4625-805F-74D4F3CA1A1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{43EEF412-A4C5-4183-ADC9-75D4B965C404}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43EEF412-A4C5-4183-ADC9-75D4B965C404}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43EEF412-A4C5-4183-ADC9-75D4B965C404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DD26A5B-B086-4625-805F-74D4F3CA1A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DD26A5B-B086-4625-805F-74D4F3CA1A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DD26A5B-B086-4625-805F-74D4F3CA1A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DD26A5B-B086-4625-805F-74D4F3CA1A1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
